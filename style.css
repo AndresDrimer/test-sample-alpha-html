@@ -490,8 +490,16 @@ nav {
 #yellow-back {
   background-color: var(--color-yellow-custom);
   color: white;
+  margin: 2rem auto;
+font-weight: 600px;
+color: white;
+padding: 10px 14px;
+border: none;
+cursor: pointer;
 }
-
+#yellow-back a{
+  color: white;
+}
 @media (min-width: 1200px) {
   #yellow-back {
     margin-bottom: 4rem;
