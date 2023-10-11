@@ -856,3 +856,13 @@ footer div p a {
     margin:2rem auto;
     }
   }
+  .footer-link:hover{
+    font-weight: bold;
+  }
+  .footer-link:active{
+    transform: scale(1.1);
+  }
+  .social-icon:hover{
+    transform: scale(1.1);
+  }
+  
