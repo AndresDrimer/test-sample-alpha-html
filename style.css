@@ -386,7 +386,8 @@ nav {
 /* second section */
 
 #second-section-background {
-  background-color: var(--color-rose-custom);  z-index: -40;
+  background-color: var(--color-rose-custom);
+  z-index: -40;
   position: relative;
 }
 
@@ -486,28 +487,20 @@ nav {
   line-height: 1.6rem;
   color: grey;
 }
-
-#yellow-button {
-  margin: 0rem auto 2rem auto;
-  font-weight: 600px;
+#yellow-back {
   background-color: var(--color-yellow-custom);
   color: white;
-  padding: 10px 14px;
-  border: none;
-  cursor:pointer;z-index:100;
 }
-#yellow-button a{
-  color:white;
-}
+
 @media (min-width: 1200px) {
-  #yellow-button {
+  #yellow-back {
     margin-bottom: 4rem;
   }
 }
-#yellow-button:hover {
+#yellow-back:hover {
   background-color: var(--color-lightblue-custom);
 }
-#yellow-button:active {
+#yellow-back:active {
   background-color: var(--color-blue-custom);
 }
 
@@ -805,7 +798,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-.accordion-header img{
+.accordion-header img {
   cursor: pointer;
 }
 .accordion-header p,
