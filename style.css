@@ -309,6 +309,7 @@ nav {
   color: white;
   padding: 10px 14px;
   border: none;
+  cursor: pointer;
 }
 .pink-button a {
   color: white;
@@ -385,8 +386,7 @@ nav {
 /* second section */
 
 #second-section-background {
-  background-color: var(--color-rose-custom);
-  z-index: -40;
+  background-color: var(--color-rose-custom);  z-index: -40;
   position: relative;
 }
 
@@ -486,6 +486,7 @@ nav {
   line-height: 1.6rem;
   color: grey;
 }
+
 #yellow-button {
   margin: 0rem auto 2rem auto;
   font-weight: 600px;
@@ -493,6 +494,10 @@ nav {
   color: white;
   padding: 10px 14px;
   border: none;
+  cursor:pointer;z-index:100;
+}
+#yellow-button a{
+  color:white;
 }
 @media (min-width: 1200px) {
   #yellow-button {
@@ -799,6 +804,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.accordion-header img{
+  cursor: pointer;
 }
 .accordion-header p,
 .accordion-content p {
