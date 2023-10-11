@@ -496,11 +496,16 @@ nav {
   padding: 10px 14px;
   border: none;
   cursor: pointer;
-}
+} 
 #yellow-back a {
   color: white;
 }
-
+@media (min-width: 1200px) {
+  #yellow-back {
+   margin-top:4rem;
+    margin-bottom: 4rem;
+  }
+}
 #yellow-back:hover {
   background-color: var(--color-lightblue-custom);
 }
